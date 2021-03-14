@@ -1,0 +1,10 @@
+^G:\UNIVERSITY\ONEDRIVE\ONEDRIVE - UNIVERSITY OF THE WEST OF SCOTLAND\3RD YEAR\2ND TRIMESTER\COMPUTER GAME AI\ASSIGNMENT 1\COMPUTER-GAME-AI\CMAKEFILES\3B76BB71D96EE9DCCFBF790F62C9EC56\GENERATE.STAMP.RULE
+setlocal
+G:\Programs\CMake\bin\cmake.exe "-SG:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/gameai-assignment1/code" "-BG:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/gameai-assignment1.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3b76bb71d96ee9dccfbf790f62c9ec56\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EE6E6FE0-616E-3815-8AC3-F960CA35B9D3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

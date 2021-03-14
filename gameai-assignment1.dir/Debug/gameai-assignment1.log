@@ -1,0 +1,5 @@
+﻿  Building Custom Rule G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/gameai-assignment1/code/CMakeLists.txt
+  gameai-assignment1.cpp
+G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\raylib-extras\draw-triangle-pro.hpp(56,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\raylib-extras\draw-triangle-pro.hpp(56,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  gameai-assignment1.vcxproj -> G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\Debug\gameai-assignment1.exe

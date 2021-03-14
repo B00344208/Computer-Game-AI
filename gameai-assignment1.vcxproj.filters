@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\gameai-assignment1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{04DD02AC-9430-309B-B61E-7043B59DEBAA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

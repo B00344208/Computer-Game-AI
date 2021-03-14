@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F746DD52-4958-32D9-9BBB-254F08BD8100}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>gameai-assignment1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <VcpkgEnabled>false</VcpkgEnabled>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gameai-assignment1.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gameai-assignment1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gameai-assignment1.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gameai-assignment1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gameai-assignment1.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gameai-assignment1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gameai-assignment1.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gameai-assignment1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-cpp-3.5.0-beta2\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-extras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-cpp-3.5.0-beta2\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-extras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-cpp-3.5.0-beta2\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-extras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/vcpkg-export-20210207-193643/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/Debug/gameai-assignment1.exe" -installedDir "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/vcpkg-export-20210207-193643/installed/x64-windows/debug/bin" -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\debug\lib\raylib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/Debug/gameai-assignment1.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/Debug/gameai-assignment1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-cpp-3.5.0-beta2\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-extras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-cpp-3.5.0-beta2\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-extras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-cpp-3.5.0-beta2\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-extras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/vcpkg-export-20210207-193643/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/Release/gameai-assignment1.exe" -installedDir "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/vcpkg-export-20210207-193643/installed/x64-windows/bin" -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\lib\raylib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/Release/gameai-assignment1.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/Release/gameai-assignment1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-cpp-3.5.0-beta2\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-extras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-cpp-3.5.0-beta2\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-extras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-cpp-3.5.0-beta2\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-extras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/vcpkg-export-20210207-193643/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/MinSizeRel/gameai-assignment1.exe" -installedDir "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/vcpkg-export-20210207-193643/installed/x64-windows/bin" -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\lib\raylib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/MinSizeRel/gameai-assignment1.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/MinSizeRel/gameai-assignment1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-cpp-3.5.0-beta2\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-extras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-cpp-3.5.0-beta2\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-extras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-cpp-3.5.0-beta2\include;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\..\..\raylib-extras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/vcpkg-export-20210207-193643/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/RelWithDebInfo/gameai-assignment1.exe" -installedDir "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/vcpkg-export-20210207-193643/installed/x64-windows/bin" -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\lib\raylib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/RelWithDebInfo/gameai-assignment1.lib</ImportLibrary>
+      <ProgramDataBaseFile>G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/RelWithDebInfo/gameai-assignment1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/gameai-assignment1/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+G:\Programs\CMake\bin\cmake.exe "-SG:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/gameai-assignment1/code" "-BG:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI" --check-stamp-file "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;G:\Programs\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeCCompiler.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeSystem.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\share\raylib\vcpkg-cmake-wrapper.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/gameai-assignment1/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+G:\Programs\CMake\bin\cmake.exe "-SG:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/gameai-assignment1/code" "-BG:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI" --check-stamp-file "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;G:\Programs\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeCCompiler.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeSystem.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\share\raylib\vcpkg-cmake-wrapper.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/gameai-assignment1/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+G:\Programs\CMake\bin\cmake.exe "-SG:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/gameai-assignment1/code" "-BG:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI" --check-stamp-file "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;G:\Programs\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeCCompiler.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeSystem.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\share\raylib\vcpkg-cmake-wrapper.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/gameai-assignment1/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+G:\Programs\CMake\bin\cmake.exe "-SG:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/gameai-assignment1/code" "-BG:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI" --check-stamp-file "G:/University/OneDrive/OneDrive - University of the West of Scotland/3rd year/2nd trimester/Computer Game AI/Assignment 1/Computer-Game-AI/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCCompiler.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCXXCompiler.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeCompilerIdDetection.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCXXCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompileFeatures.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerABI.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineCompilerId.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineRCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeDetermineSystem.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeFindBinUtils.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeParseImplicitIncludeInfo.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeRCCompiler.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeSystem.cmake.in;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestCXXCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestCompilerCommon.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CMakeTestRCCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\ARMClang-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\TI-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\CompilerId\VS-10.vcxproj.in;G:\Programs\CMake\share\cmake-3.19\Modules\Internal\FeatureTesting.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-Determine-CXX.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;G:\Programs\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeCCompiler.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\3.19.4\CMakeSystem.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\installed\x64-windows\share\raylib\vcpkg-cmake-wrapper.cmake;G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\vcpkg-export-20210207-193643\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\gameai-assignment1\code\gameai-assignment1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\University\OneDrive\OneDrive - University of the West of Scotland\3rd year\2nd trimester\Computer Game AI\Assignment 1\Computer-Game-AI\ZERO_CHECK.vcxproj">
+      <Project>{2C75D29E-0DD6-37FE-83DE-CDC3B28C4906}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
